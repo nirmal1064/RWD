@@ -1,4 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 table {
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: aqua;
+}
+
+td {
+  background-color: azure;
+}
+
+caption {
+  margin-bottom: 1em;
+}
+
+th,
+td {
+  width: 150px;
+  height: 25px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
 }

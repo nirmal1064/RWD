@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Fill in our Survey Form</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">Enter Your Name: <input type="text" id="name"
+                    placeholder="Enter Your Name" required /></label>
+            <label id="email-label" for="email">Enter Your Email: <input type="email" id="email"
+                    placeholder="Enter Your Email" required /></label>
+            <label id="number-label" for="number">Enter Your Age: <input type="number" id="number"
+                    placeholder="Enter Your Age" min="1" max="100" required /></label>
+            <select id="dropdown">
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+            </select>
+
+            <p class="question">Select from Radio</p>
+            <label><input type="radio" name="radio-name" value="1" />Radio 1</label>
+            <label><input type="radio" name="radio-name" value="2" />Radio 2</label>
+
+            <p class="question">Select the Checkbox</p>
+            <label><input type="checkbox" value="2">Check 1</label>
+            <label><input type="checkbox" value="2">Check 2</label>
+
+            <p class="question">Enter Feedback</p>
+            <textarea cols="30" rows="10" placeholder="Enter Your Feedback"></textarea>
+
+            <button id="submit" type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

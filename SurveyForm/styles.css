@@ -1,0 +1,34 @@
+body {
+  margin: 0 auto;
+  width: 500px;
+}
+
+label {
+  display: block;
+  margin: 0.5em 0;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.question {
+  text-align: left;
+}
+
+textarea {
+  display: block;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+  border-color: aliceblue;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
